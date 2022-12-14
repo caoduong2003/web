@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    gap: 12%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+    align-items: center;
+    background-color: #D2DAFF;
+}
+
+.main-navbar img {
+    width: 90px;
+    height: 20px;
+}
+
+.navbar-right {
+    display: flex;
+    gap: 60px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.search-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    padding: 4px 10px;
+    width: 50%;
+    background-color: #fff;
+}
+
+.search-input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-btn {
+    padding: 9px 25px;
+    background-color: #D2DAFF;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    margin: 40px auto;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.sidebar {
+    width: 20%;
+    min-height: calc(100vh - 210px);
+}
+
+.sidebar-category {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sidebar-header {
+    font-size: 22px;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-size: 18px;
+}
+
+.list-product {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+
+.product {
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.product img {
+    width: 300px;
+    height: 200px;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+    gap: 10px;
+    padding: 20px 10px;
+}
+
+.product-title {
+    font-size: 22px;
+}
+
+.product-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    padding: 10px 100px;
+    background-color: #D2DAFF;
+    width: 100%;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+}
+
+.footer-account, .footer-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: inherit;
+}
+
+.footer-account__link, .footer-contact__info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-account__link a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+.logo-footer {
+    width: 50%;
+}

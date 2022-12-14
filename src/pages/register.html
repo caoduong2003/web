@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="header">
+                <h2 class="form-header" id="register-selection">Đăng ký</h2>
+                <span style="font-size: 20px;">Bạn đã có tài khoản? <a href="./login.html">Đăng nhập</a> tại đây</span>
+            </div>
+            <form class="form-register">
+                <div class="form-control">
+                    <label for="">Name</label>
+                    <input type="text" placeholder="Name" id="name-input" required>
+                </div>
+                <div class="form-control">
+                    <label for="">Email</label>
+                    <input type="email" placeholder="Email" id="email-input" required>
+                    <span class="errorMes errorMesEmail"></span>
+                </div>
+                <div class="form-control">
+                    <label for="">Password</label>
+                    <input type="password" placeholder="Password" id="password-input" required>
+                    <span class="errorMes errorMesPassword"></span>
+                </div>
+                <div class="form-control">
+                    <label for="">Confirm Password</label>
+                    <input type="password" placeholder="Confirm Password" id="confirmPassword-input" required>
+                    <span class="errorMes confirmPassword-error"></span>
+                </div>
+                <input type="submit" value="Register" class="form-submit">
+            </form>
+        </div>
+    </div>
+    <script src="../../assets/js/register.js"></script>
+</body>
+</html>
