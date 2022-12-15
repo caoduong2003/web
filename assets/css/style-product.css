@@ -91,12 +91,12 @@
 .product-img img 
 {
   margin: 50px 100px 50px 100px ;
-  display: block;
-  height: 500px;
-  width: 500px;
+  display: flex;
+  height: 450px;
+  width: 450px;
   object-fit: cover;
 }
-.product-title
+.product-title 
 {
   display: block;
 }
