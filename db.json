@@ -19,6 +19,18 @@
       "name": "asdasd",
       "username": "minhdo162002@gmail.com",
       "password": "minh16082002"
+    },
+    {
+      "id": "huong123@gmail.com",
+      "name": "huong",
+      "username": "huong123@gmail.com",
+      "password": "huong123"
+    },
+    {
+      "id": "an123@gmail.com",
+      "name": "minhan",
+      "username": "an123@gmail.com",
+      "password": "minhan123"
     }
   ]
 }
